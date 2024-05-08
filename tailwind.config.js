@@ -1,11 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.{html,js}"],
+  content: ["./public/*.{html,js}"],
   theme: {
     extend: {
       colors: {
         'secondary-color': '#232441',
-        'light-color': '#F0F3FF',
+        'light-color': '#F0F3FF', 
         'light-color-2': '#52559F',
         'light-color-3': '#DDE4FE',
         'primary-color': '#E7FE58',
